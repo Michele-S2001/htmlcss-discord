@@ -191,6 +191,10 @@ a {
     padding-bottom: 20px;
 }
 
+.features-description p {
+    line-height: 1.5em;
+}
+
 
 
 /* debug selectors */
