@@ -29,6 +29,7 @@ menu {
 a {
     text-decoration: none;
     color: currentColor;
+    display: inline-block;
 }
 
 /* utility classes */
@@ -53,8 +54,13 @@ a {
     justify-content: space-between;
 }
 
-.button {
+.button-small {
     padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.button-large {
+    padding: 10px 18px;
     border-radius: 20px;
 }
 
@@ -111,7 +117,7 @@ a {
 
 /* HEADER STYLING SECTION */
 .page-header {
-    background-color: #3161e0;
+    background-color: #255ee9;
     padding: 20px 0;
 }
 
@@ -133,6 +139,39 @@ a {
 /* main content */
 .section {
     padding: 30px 0;
+}
+
+    /* hero */
+.hero {
+    padding: 80px 0;
+    text-align: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-title, .hero-paragraph, .open-discord-button {
+    color: white;
+}
+
+.hero-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.hero-paragraph {
+    margin-bottom: 25px;
+    line-height: 1.5em;
+}
+
+.dowload-button {
+    background-color: white;
+    margin-right: 20px;
+    
+}
+
+.open-discord-button {
+    background-color: #23272a;
 }
 
 
@@ -163,10 +202,10 @@ a {
     background-color: red;
 } */
 
-.debug .main-content .col {
+/* .debug .main-content .col {
     min-height: 400px;
     background-color: pink;
-}
+} */
 
 .debug .col.col-7 {
     background-color: cyan;
