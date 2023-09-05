@@ -239,7 +239,7 @@ select {
     padding: 60px 20px 20px 20px;
 }
 
-.main-footer .container{
+.main-footer .container {
     border-bottom: 1px solid #7289da;
 }
 
@@ -271,6 +271,18 @@ select {
 .links > li {
     margin-bottom: 15px;
 }
+
+/* FOOTER BAR SECTION */
+
+.footer-bar .col > .button-small {
+    background-color: #8ea1e1;
+    font-size: 15px;
+}
+
+.footer-bar {
+    padding: 20px 0 70px 0;
+}
+
 
 /* debug selectors */
 
@@ -330,7 +342,7 @@ select {
     background-color: darksalmon;
 } */
 
-.debug .footer-bar {
+/* .debug .footer-bar {
     padding-top: 15px;
 }
 
@@ -342,4 +354,4 @@ select {
 .debug .footer-bar .row > .col {
     padding: 3px 10px;
     background-color: rgb(252, 190, 183);
-}
+} */
