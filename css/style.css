@@ -1,3 +1,4 @@
+ /* RESET RULES */
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,17 @@ button {
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
 }
 
 /* utility classes */
@@ -83,6 +95,12 @@ button {
     flex-basis: 100%;
 }
 
+/* HEADER STYLING SECTION */
+.page-header {
+    background-color: #3161e0;
+    padding: 10px 0;
+}
+
 /* main content */
 .section {
     padding: 30px 0;
@@ -100,9 +118,9 @@ button {
     background-color: darkgoldenrod;
 }
 
-.debug nav > .row {
+/* .debug nav > .row {
     padding: 5px;
-}
+} */
 
 .debug .row {
     border: 3px dashed rgb(17, 248, 0);
@@ -110,11 +128,6 @@ button {
 
 .debug .col {
     border: 2px dotted red;
-}
-
-.debug .page-header {
-    background-color: aqua;
-    padding: 10px 0;
 }
 
 .debug .main-content .col {
