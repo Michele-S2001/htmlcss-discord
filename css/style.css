@@ -159,6 +159,10 @@ svg {
     background-color: white;
 }
 
+.nav-link > a:hover, .links > li > a:hover {
+    text-decoration: underline;
+}
+
 /* MAIN CONTENT */
 
 .section {
