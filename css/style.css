@@ -183,11 +183,11 @@ a {
 }
 
 /* CHAT ILLUSTRATION SECTION */
-.chat-illustration-text {
-    padding: 30px 60px;
+.features-description {
+    padding: 25px 60px;
 }
 
-.chat-illustration-text h2 {
+.features-description h2 {
     padding-bottom: 20px;
 }
 
