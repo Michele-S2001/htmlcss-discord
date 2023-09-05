@@ -32,6 +32,10 @@ a {
     display: inline-block;
 }
 
+p {
+    line-height: 1.5em;
+}
+
 /* utility classes */
 .container {
     max-width: 980px;
@@ -169,7 +173,6 @@ a {
 
 .hero-paragraph {
     margin-bottom: 25px;
-    line-height: 1.5em;
 }
 
 .dowload-button {
@@ -189,10 +192,6 @@ a {
 
 .features-description h2 {
     padding-bottom: 20px;
-}
-
-.features-description p {
-    line-height: 1.5em;
 }
 
 
