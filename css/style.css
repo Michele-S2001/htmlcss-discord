@@ -265,6 +265,7 @@ svg {
 
 .select-language {
     height: 20px;
+    display: flex;
 }
 
 .footer-contacts {
